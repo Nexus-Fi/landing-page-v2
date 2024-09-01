@@ -22,7 +22,7 @@ const Hero : React.FC = () => {
           <h1 className="text-5xl md:text-7xl font-bold text-black leading-tight">
             Restake your{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-600">
-              NIBI's
+              NIBI&apos;s
             </span>
             <br /> to Earn_
           </h1>
