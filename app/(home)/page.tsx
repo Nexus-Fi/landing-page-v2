@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Airtable from "airtable";
 import toast from "react-hot-toast";
+import { Typewriter } from "react-simple-typewriter";
 
 const HomeEarlyAccess = (): JSX.Element => {
   const [email, setEmail] = useState("");
@@ -86,25 +87,38 @@ const HomeEarlyAccess = (): JSX.Element => {
       <div className="flex flex-col items-center gap-2.5 px-[156px] py-0 relative self-stretch w-full flex-[0_0_auto] border-b [border-bottom-style:solid] border-[#38e1ff]">
         <div className="flex-col justify-center gap-4 px-4 py-[100px] self-stretch w-full flex-[0_0_auto] bg-[#38e1ff08] border-r [border-right-style:solid] border-l [border-left-style:solid] flex items-center relative border-[#38e1ff]">
           <div className="flex flex-wrap items-center justify-center gap-[25px_25px] relative self-stretch w-full flex-[0_0_auto]">
-            <p className="relative w-fit [font-family:'VP_Pixel-Regular',Helvetica] font-normal text-collection-1-brand-2 text-[120px] text-center tracking-[0] leading-[normal]">
-              <span className="[font-family:'VP_Pixel-Regular',Helvetica] font-normal  text-[120px] tracking-[0]">
+            <p className="relative w-fit [font-family:'VP_Pixel-Regular',Helvetica] font-normal text-collection-1-brand-2 text-[80px] text-center tracking-[0] leading-[normal]">
+              <span className="[font-family:'VP_Pixel-Regular',Helvetica] font-normal  text-[100px] tracking-[0]">
                 R
               </span>
               <span className="[font-family:'Neue_Haas_Grotesk_Display_Pro-Regular',Helvetica]">
-                estake your <b className="text-[#38e1ff]">NIBI&#39;s</b>
+                estake your assets
               </span>
             </p>
             {/* <div className="relative w-fit mt-[-1.00px] [text-shadow:0px_0px_250px_#38e1ff] [background:linear-gradient(180deg,rgb(0,104.3,201.88)_0%,rgb(56,225.15,255)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Neue_Haas_Grotesk_Display_Pro-75Bold',Helvetica] font-bold text-transparent text-[188px] text-center tracking-[0] leading-[225.6px] whitespace-nowrap">
               NIBI&#39;s
             </div> */}
-            <div className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-collection-1-brand-2 text-[120px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
-              to Earn_
+            <div className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-collection-1-brand-2 text-[80px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+              and gif of{" "}
+              <b className="text-[#38e1ff]">
+                <span>
+                  <Typewriter
+                    words={["BTC", "ETH", "ATOM", "NIBI"]}
+                    loop={5}
+                    cursor
+                    cursorStyle="_"
+                    typeSpeed={70}
+                    deleteSpeed={70}
+                    delaySpeed={4000}
+                  />
+                </span>
+              </b>
             </div>
           </div>
-          <p className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-white text-xl text-center tracking-[0] leading-[normal]">
+          <p className="relative py-8 w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-white text-xl text-center tracking-[0] leading-[normal]">
             {" "}
-            Nexus Finance enables seamless restaking and validation on the
-            Nibiru platform, empowering users to secure, validate, and earn.
+            Nexus Finance enables seamless restaking and validation, empowering
+            users to secure, validate, and earn.
           </p>
           <a href="https://litepaper.nexusfi.xyz/">
             <button className="all-[unset] box-border inline-flex px-[72px] py-2.5 mb-[-1.00px] items-center justify-center gap-2.5 relative flex-[0_0_auto] rounded-[1.16px] overflow-hidden border border-solid border-transparent shadow-[0px_0px_250px_#42dfff] [border-image:linear-gradient(to_bottom,rgb(22,164,193),rgb(56,225.15,255))_1] [background:linear-gradient(180deg,rgb(56,70,255)_0%,rgb(22,164,193)_100%)]">
@@ -224,8 +238,8 @@ const HomeEarlyAccess = (): JSX.Element => {
               </p>
             </div>
             <p className="relative self-stretch [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-[#38e1ffb2] text-base tracking-[0] leading-[normal]">
-              Nexus Finance enables seamless restaking and validation on the
-              Nibiru platform, empowering users to secure, validate, and earn.
+              Nexus Finance enables seamless restaking and validation,
+              empowering users to secure, validate, and earn.
             </p>
           </div>
           <div className="flex flex-col w-[300px] items-start gap-6 px-4 py-1 relative self-stretch shadow-[0px_0px_53.2px_#00000040]">
