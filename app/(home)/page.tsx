@@ -109,7 +109,7 @@ const HomeEarlyAccess = (): JSX.Element => {
                     cursorStyle="_"
                     typeSpeed={70}
                     deleteSpeed={70}
-                    delaySpeed={4000}
+                    delaySpeed={2000}
                   />
                 </span>
               </b>
