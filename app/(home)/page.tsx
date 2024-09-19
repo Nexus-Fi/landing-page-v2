@@ -92,14 +92,14 @@ const HomeEarlyAccess = (): JSX.Element => {
                 R
               </span>
               <span className="[font-family:'Neue_Haas_Grotesk_Display_Pro-Regular',Helvetica]">
-                estake your assets
+                estake your
               </span>
             </p>
             {/* <div className="relative w-fit mt-[-1.00px] [text-shadow:0px_0px_250px_#38e1ff] [background:linear-gradient(180deg,rgb(0,104.3,201.88)_0%,rgb(56,225.15,255)_100%)] [-webkit-background-clip:text] bg-clip-text [-webkit-text-fill-color:transparent] [text-fill-color:transparent] [font-family:'Neue_Haas_Grotesk_Display_Pro-75Bold',Helvetica] font-bold text-transparent text-[188px] text-center tracking-[0] leading-[225.6px] whitespace-nowrap">
               NIBI&#39;s
             </div> */}
-            <div className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-collection-1-brand-2 text-[80px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
-              and gif of{" "}
+            <div className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-collection-1-brand-2 text-[100px] text-center tracking-[0] leading-[normal] whitespace-nowrap">
+            {" "}
               <b className="text-[#38e1ff]">
                 <span>
                   <Typewriter
