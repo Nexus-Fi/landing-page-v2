@@ -138,7 +138,7 @@ const HomeEarlyAccess = (): JSX.Element => {
           </p>
         </div>
       </div>
-      <div className="flex justify-center self-stretch w-full h-[561px] border-b [border-bottom-style:solid] border-[#00000066]">
+      <div className="flex justify-center self-stretch w-full border-b [border-bottom-style:solid] border-[#00000066]">
         <div className="flex-wrap w-[800px] h-[613px] justify-around gap-[0px_0px] px-[100px] py-[60px] rounded-[18px] border-2 border-solid backdrop-blur-[61.9px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(61.9px)_brightness(100%)] [background:linear-gradient(180deg,rgba(56,225.15,255,0.1)_0%,rgba(159.38,240.66,255,0.1)_100%)] flex items-center relative border-[#38e1ff]">
           <div className="flex flex-col h-[493px] items-start justify-center gap-9 relative flex-1 grow">
             <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
