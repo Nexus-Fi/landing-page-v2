@@ -104,7 +104,7 @@ const HomeEarlyAccess = (): JSX.Element => {
                 <span>
                   <Typewriter
                     words={["BTC", "ETH", "ATOM", "NIBI"]}
-                    loop={5}
+                    loop={20}
                     cursor
                     cursorStyle="_"
                     typeSpeed={70}
