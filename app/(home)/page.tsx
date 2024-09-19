@@ -39,6 +39,8 @@ const HomeEarlyAccess = (): JSX.Element => {
           return;
         }
         toast.success("Application submitted successfully");
+        setEmail("");
+        setWallet("");
         setLoading(false);
         console.log(record?.getId());
       }
@@ -177,6 +179,7 @@ const HomeEarlyAccess = (): JSX.Element => {
                   <input
                     className="w-[329px] relative border-0 [background:none] flex-1 grow mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal] text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] p-0"
                     id="input-1"
+                    value={email}
                     onChange={handleEmailChange}
                   />
                 </div>
@@ -190,6 +193,7 @@ const HomeEarlyAccess = (): JSX.Element => {
                   <input
                     className="w-[329px] relative border-0 [background:none] flex-1 grow mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal] text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] p-0"
                     id="input-2"
+                    value={wallet}
                     onChange={handleWalletChange}
                   />
                 </div>
