@@ -73,7 +73,13 @@ const HomeEarlyAccess = (): JSX.Element => {
               </div> */}
               <div className="inline-flex items-center justify-center gap-1">
                 <div className="text-xl">
-                  <a href="https://litepaper.nexusfi.xyz/">Docs</a>
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://litepaper.nexusfi.xyz/"
+                  >
+                    Docs
+                  </a>
                 </div>
                 <img
                   className="w-6 h-6"
@@ -125,7 +131,11 @@ const HomeEarlyAccess = (): JSX.Element => {
             Nexus Finance enables seamless restaking and validation, empowering
             users to secure, validate, and earn.
           </p>
-          <a href="https://litepaper.nexusfi.xyz/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://litepaper.nexusfi.xyz/"
+          >
             <button className="all-[unset] box-border inline-flex px-[72px] py-2.5 mb-[-1.00px] items-center justify-center gap-2.5 relative flex-[0_0_auto] rounded-[1.16px] overflow-hidden border border-solid border-transparent shadow-[0px_0px_250px_#42dfff] [border-image:linear-gradient(to_bottom,rgb(22,164,193),rgb(56,225.15,255))_1] [background:linear-gradient(180deg,rgb(56,70,255)_0%,rgb(22,164,193)_100%)]">
               <div className="relative w-fit mt-[-0.50px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-xl tracking-[0] leading-[normal] whitespace-nowrap">
                 Learn More
@@ -159,63 +169,63 @@ const HomeEarlyAccess = (): JSX.Element => {
 
       {/* early access */}
       <div className={style.section}>
-      <div className="flex justify-center self-stretch border-b [border-bottom-style:solid] border-[#00000066]">
-        <div className="flex-wrap justify-around gap-[0px_0px] px-4 sm:px-6 md:px-[80px] lg:px-[100px] xl:px-[156px]  py-[60px] rounded-[18px] border-2 border-solid backdrop-blur-[61.9px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(61.9px)_brightness(100%)] [background:linear-gradient(180deg,rgba(56,225.15,255,0.1)_0%,rgba(159.38,240.66,255,0.1)_100%)] flex items-center relative border-[#38e1ff]">
-          <div className="flex flex-col items-start justify-center gap-9 relative flex-1 grow">
-            <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
-              <div className="relative w-fit mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-[#ffffff] md:text-4xl lg:text-4xl xl:text-4xl text-2xl text-center tracking-[0] leading-[normal]">
-                Be a early adaptor
+        <div className="flex justify-center self-stretch border-b [border-bottom-style:solid] border-[#00000066]">
+          <div className="flex-wrap justify-around gap-[0px_0px] px-4 sm:px-6 md:px-[80px] lg:px-[100px] xl:px-[156px]  py-[60px] rounded-[18px] border-2 border-solid backdrop-blur-[61.9px] backdrop-brightness-[100%] [-webkit-backdrop-filter:blur(61.9px)_brightness(100%)] [background:linear-gradient(180deg,rgba(56,225.15,255,0.1)_0%,rgba(159.38,240.66,255,0.1)_100%)] flex items-center relative border-[#38e1ff]">
+            <div className="flex flex-col items-start justify-center gap-9 relative flex-1 grow">
+              <div className="flex flex-col items-start gap-6 relative self-stretch w-full flex-[0_0_auto]">
+                <div className="relative w-fit mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-[#ffffff] md:text-4xl lg:text-4xl xl:text-4xl text-2xl text-center tracking-[0] leading-[normal]">
+                  Be a early adaptor
+                </div>
+                <p className="relative self-stretch [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-[#c7c7c7] md:text-xl lg:text-xl xl:text-xl text-lg tracking-[0] leading-[normal]">
+                  {" "}
+                  Apply to be an early adaptor and get exclusive access to the
+                  Nexus Finance platform.
+                </p>
               </div>
-              <p className="relative self-stretch [font-family:'Neue_Haas_Grotesk_Display_Pro-55Roman',Helvetica] font-normal text-[#c7c7c7] md:text-xl lg:text-xl xl:text-xl text-lg tracking-[0] leading-[normal]">
-                {" "}
-                Apply to be an early adaptor and get exclusive access to the
-                Nexus Finance platform.
-              </p>
-            </div>
-            <div className="inline-flex flex-col items-center gap-[30px] relative flex-[0_0_auto]">
-              <div className="flex flex-col w-fit items-center gap-4 relative flex-[0_0_auto]">
-                <div className="inline-flex flex-col h-16 items-start justify-center gap-1 px-4 py-2 relative rounded-[var(--2-radius-radius-md)] border border-solid border-collection-1-brand-2">
-                  <label
-                    className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-45Light',Helvetica] font-light text-collection-1-brand-2 text-xs tracking-[0] leading-[normal] whitespace-nowrap overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical]"
-                    htmlFor="input-1"
-                  >
-                    Email Address
-                  </label>
-                  <input
-                    className="w-[250px] relative border-0 [background:none] flex-1 grow mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal] text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] p-0"
-                    id="input-1"
-                    value={email}
-                    onChange={handleEmailChange}
-                  />
+              <div className="inline-flex flex-col items-center gap-[30px] relative flex-[0_0_auto]">
+                <div className="flex flex-col w-fit items-center gap-4 relative flex-[0_0_auto]">
+                  <div className="inline-flex flex-col h-16 items-start justify-center gap-1 px-4 py-2 relative rounded-[var(--2-radius-radius-md)] border border-solid border-collection-1-brand-2">
+                    <label
+                      className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-45Light',Helvetica] font-light text-collection-1-brand-2 text-xs tracking-[0] leading-[normal] whitespace-nowrap overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical]"
+                      htmlFor="input-1"
+                    >
+                      Email Address
+                    </label>
+                    <input
+                      className="w-[250px] relative border-0 [background:none] flex-1 grow mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal] text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] p-0"
+                      id="input-1"
+                      value={email}
+                      onChange={handleEmailChange}
+                    />
+                  </div>
+                  <div className="inline-flex flex-col h-16 items-start justify-center gap-1 px-4 py-2 relative rounded-[var(--2-radius-radius-md)] border border-solid border-collection-1-brand-2">
+                    <label
+                      className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-45Light',Helvetica] font-light text-collection-1-brand-2 text-xs tracking-[0] leading-[normal] whitespace-nowrap overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical]"
+                      htmlFor="input-2"
+                    >
+                      Wallet Address
+                    </label>
+                    <input
+                      className="w-[250px] relative border-0 [background:none] flex-1 grow mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal] text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] p-0"
+                      id="input-2"
+                      value={wallet}
+                      onChange={handleWalletChange}
+                    />
+                  </div>
                 </div>
-                <div className="inline-flex flex-col h-16 items-start justify-center gap-1 px-4 py-2 relative rounded-[var(--2-radius-radius-md)] border border-solid border-collection-1-brand-2">
-                  <label
-                    className="relative w-fit [font-family:'Neue_Haas_Grotesk_Display_Pro-45Light',Helvetica] font-light text-collection-1-brand-2 text-xs tracking-[0] leading-[normal] whitespace-nowrap overflow-hidden text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical]"
-                    htmlFor="input-2"
-                  >
-                    Wallet Address
-                  </label>
-                  <input
-                    className="w-[250px] relative border-0 [background:none] flex-1 grow mt-[-1.00px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-base tracking-[0] leading-[normal] text-ellipsis [display:-webkit-box] [-webkit-line-clamp:1] [-webkit-box-orient:vertical] p-0"
-                    id="input-2"
-                    value={wallet}
-                    onChange={handleWalletChange}
-                  />
-                </div>
+                <button
+                  className="all-[unset] disabled:opacity-30 box-border flex w-[250px] px-8 py-2.5 mb-[-1.00px] items-center justify-center gap-2.5 relative flex-[0_0_auto] rounded-[1.16px] overflow-hidden border border-solid border-transparent shadow-[0px_0px_250px_#42dfff] [border-image:linear-gradient(to_bottom,rgb(22,164,193),rgb(56,225.15,255))_1] [background:linear-gradient(180deg,rgb(56,70,255)_0%,rgb(22,164,193)_100%)]"
+                  onClick={handleApply}
+                  disabled={loading}
+                >
+                  <div className="relative w-fit mt-[-0.50px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-xl tracking-[0] leading-[normal] whitespace-nowrap">
+                    {loading ? "Applying in progress..." : "Apply"}
+                  </div>
+                </button>
               </div>
-              <button
-                className="all-[unset] disabled:opacity-30 box-border flex w-[250px] px-8 py-2.5 mb-[-1.00px] items-center justify-center gap-2.5 relative flex-[0_0_auto] rounded-[1.16px] overflow-hidden border border-solid border-transparent shadow-[0px_0px_250px_#42dfff] [border-image:linear-gradient(to_bottom,rgb(22,164,193),rgb(56,225.15,255))_1] [background:linear-gradient(180deg,rgb(56,70,255)_0%,rgb(22,164,193)_100%)]"
-                onClick={handleApply}
-                disabled={loading}
-              >
-                <div className="relative w-fit mt-[-0.50px] [font-family:'Neue_Haas_Grotesk_Display_Pro-65Medium',Helvetica] font-medium text-white text-xl tracking-[0] leading-[normal] whitespace-nowrap">
-                  {loading ? "Applying in progress..." : "Apply"}
-                </div>
-              </button>
             </div>
           </div>
         </div>
-      </div>
       </div>
 
       {/* divider */}
@@ -237,14 +247,45 @@ const HomeEarlyAccess = (): JSX.Element => {
               empowering users to secure, validate, and earn.
             </p>
           </div>
-          <div className="flex flex-col items-start w-full md:w-[300px] gap-6 px-4 py-1 shadow-md">
-          </div>
+          <div className="flex flex-col items-start w-full md:w-[300px] gap-6 px-4 py-1 shadow-md"></div>
 
           <div className="flex flex-col items-start w-full md:w-[300px] gap-6 px-4 py-1 shadow-md">
-            <div className="text-xl text-[#38e1ffb2]">Brand Kit</div>
-            <div className="text-xl text-[#38e1ffb2]">Docs</div>
-            <div className="text-xl text-[#38e1ffb2]">Contact us</div>
-            <div className="text-xl text-[#38e1ffb2]">Twitter</div>
+            <div className="text-xl text-[#38e1ffb2]">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://litepaper.nexusfi.xyz/brand-kit"
+              >
+                Brand Kit
+              </a>
+            </div>
+            <div className="text-xl text-[#38e1ffb2]">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://litepaper.nexusfi.xyz/"
+              >
+                Docs
+              </a>
+            </div>
+            <div className="text-xl text-[#38e1ffb2]">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:hi@nexusfi.xyz"
+              >
+                Contact us
+              </a>
+            </div>
+            <div className="text-xl text-[#38e1ffb2]">
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://x.com/NexusFi_xyz"
+              >
+                Follow on X
+              </a>
+            </div>
           </div>
         </div>
         <div className="flex items-center justify-end gap-2.5 px-2.5 py-5 relative self-stretch w-full flex-[0_0_auto]">
